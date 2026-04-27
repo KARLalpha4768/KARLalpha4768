@@ -33,7 +33,7 @@ My work thrives at the intersection of **Cloud Infrastructure, Data Engineering,
 
 ### 🌟 Featured Projects
 
-*   **CamWatch Edge Intelligence Platform:** Architected an autonomous, self-hosted physical security VMS. Integrated Google's Gemini Vision API with local Python Edge Relays to process over 873K+ spatial data points, orchestrating custom hardware sweeps and real-time threat intelligence.
+*   **Amcrest Gemini Vision (CamWatch):** Architected an autonomous, self-hosted physical security VMS. Integrated Google's Gemini Vision API with local Python Edge Relays to process over 873K+ spatial data points, orchestrating custom hardware sweeps and real-time threat intelligence.
 *   **Kham Enterprises LLC ([khamenterprisesllc.com](https://khamenterprisesllc.com)):** Developed the comprehensive full-stack Next.js web application and Enterprise Operations Portal for Kham Enterprises. Integrated real-time GPS fleet tracking (Yeti) and complex P&L financial reconciliation wizards, significantly streamlining operational auditing. 
 *   **High-Fidelity Forensic Imaging:** Built custom workflows combining traditional OpenCV rendering with LLM-driven prompt engineering to analyze and annotate physical construction sites and property perimeters.
 
@@ -52,4 +52,5 @@ I am always looking for opportunities to tackle complex architectural challenges
 ---
 
 ⚡ **Fun Fact:** When I'm not architecting cloud deployments or fine-tuning edge camera sweeps, you can find me analyzing 3D spatial environments or researching sustainable wetland amphibian habitats! 🐸
+
 
