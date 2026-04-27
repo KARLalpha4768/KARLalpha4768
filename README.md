@@ -64,3 +64,4 @@ I'm always on the lookout for exciting opportunities to collaborate on groundbre
 ### ⚡ Fun Fact
 
 When I'm not deep in code or driving my next cloud architecture project, you'll likely find me exploring cutting-edge advancements in physical security hardware or getting hands-on researching sustainable wetland amphibian habitats. I'm driven by a passion for continuous learning and thrive on tackling new architectural challenges head-on! Check out my repositories and see the work I’ve been doing! 🚀
+
