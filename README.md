@@ -1,48 +1,57 @@
 <h1 align="center">Karl David</h1>
 
 <p align="center">
-  <strong>Principal Engineer — Autonomous Systems & Data Platform Architecture</strong><br>
-  Cornell BS · USC MPW · 15+ Years Building Production Infrastructure
+  <strong>Databricks · PySpark · Generative AI prototypes | Client-facing delivery</strong><br>
+  Cornell BS, General Studies · USC MPW · Databricks Lakehouse Fundamentals (March 2026)
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/karldavid-data/">LinkedIn</a> •
-  <a href="https://sentinelforge.vercel.app">SentinelForge (Live)</a> •
+  <a href="https://sentinelforge.vercel.app">SentinelForge (demo)</a> •
   <a href="mailto:alpha4768@gmail.com">alpha4768@gmail.com</a>
 </p>
 
 ---
 
-I design and build end-to-end autonomous systems — from the data pipeline to the agent logic to the operational interface. My work focuses on production infrastructure where correctness and availability are non-negotiable.
+I build Databricks, PySpark, and generative AI prototypes, and I do the client-facing work around them: discovery, requirements, and documentation. These are built prototypes, not production systems.
 
-### Current Work
+### Current work
 
-**[SentinelForge](https://github.com/KARLalpha4768/SentinelForge)** — Autonomous Space Domain Awareness Platform
+**[SentinelForge](https://github.com/KARLalpha4768/SentinelForge)** — space-surveillance dashboard prototype
 
-A 20-agent system that processes real-time orbital telemetry from CelesTrak/NORAD, performs conjunction screening, debris risk scoring, and threat classification, and surfaces intelligence through a 3D operational command center.
+Demo: [sentinelforge.vercel.app](https://sentinelforge.vercel.app)
 
-- Multi-agent coordination with independent decision loops per agent
-- Real-time data pipelines with schema validation, quality gates, and confidence calibration
-- 3D fleet visualization rendering satellite positions, conjunction geometries, and threat vectors
-- Full CI/CD (GitHub Actions → Vercel), production-deployed at [sentinelforge.vercel.app](https://sentinelforge.vercel.app)
+A space-surveillance dashboard prototype with a Gemini natural-language command interpreter (`api/nlp.js`) and a separate local orchestrator that can use Gemini to turn a goal into SQLite tasks.
 
-**Gemini Vision Agentic System** — LLM + Computer Vision Threat Grading
+**Storm Intelligence & Fleet Analytics Platform** (built, prototype; private repo)
 
-Chain-of-Thought prompt architecture integrating YOLO object detection with Google Gemini for autonomous threat classification. Structured output parsing with mandatory sensor-LLM reconciliation — the model cannot issue a threat grade without referencing detection data, eliminating hallucinated classifications.
+A storm and fleet analytics prototype designed to help decide when and where to send crews as weather changes. A local PySpark bronze/silver/gold transformation builds crew scorecards, client segments, and seasonal KPIs, and a Python client pulls National Weather Service observations from KROC. Prototype scope: 43 service sites and 3 trucks.
 
-### Technical Stack
+**[mindex-data-challenge](https://github.com/KARLalpha4768/mindex-data-challenge)** — Python/SQL/SQLite ETL
+
+Built a Python and SQL ETL pipeline into a SQLite star schema that reconciled totals to $158,044.29 (0-cent tie-out), turned 505 raw rows into 474 fact rows, caught all 17 defect classes with 0 count mismatches, and avoided a $961.48 revenue overstatement by preserving reported amounts on 20 under-computed lines. 87 tests.
+
+**Grant-drafting GPT** (built, A Frog House, 2025)
+
+Custom GPT for grant narratives at a small nonprofit, with human review of every draft.
+
+### Technical stack
 
 | Domain | Tools |
 |---|---|
-| **Languages** | Python (expert), TypeScript, SQL |
-| **Data** | PySpark, Apache Spark, Airflow, event-driven pipelines |
-| **Cloud** | AWS (S3, Lambda, EMR), GCP, Vercel |
-| **AI/ML** | Google Gemini, YOLO/OpenCV, prompt engineering, RAG |
-| **Infrastructure** | Terraform, GitHub Actions CI/CD, Docker |
-| **Frontend** | React, Next.js, Three.js, responsive design |
+| **Languages** | Python, JavaScript/TypeScript, SQL |
+| **Data** | PySpark (local SparkSession and a Databricks-style notebook), SQL, SQLite, star schema, data quality checks, pytest |
+| **Cloud** | AWS S3 and Lambda (hands-on, newer), Vercel |
+| **AI** | Google Gemini (NL command interpreter; local goal-to-task orchestrator), custom GPT for grant drafting with human review |
+| **Infrastructure** | Terraform templates, GitHub Actions (pytest), Dockerfiles |
+| **Frontend** | React, Next.js |
+
+Databricks, PySpark, and Terraform come from self-study and building. AWS is hands-on but newer. The only Databricks certification is Lakehouse Fundamentals (March 2026).
 
 ### Background
 
-15+ years of production engineering across data platforms, distributed systems, and autonomous intelligence architectures. Previous work includes enterprise data operations at J.P. Morgan Chase, analytics infrastructure at UNISYS, and platform engineering at Xerox.
+At Kham Enterprises (2005–present), a Rochester-area snow and ice contractor, I am Business & HR Manager and, since 2024, have done the company's data and architecture work under the functional title Data Engineer / Solutions Architect. From 2017 to 2023 I led operations systems and technology, including bids and proposals for commercial and public-sector accounts such as OPWDD and Lifetime Assistance. Earlier career: communications and marketing roles at Xerox, JPMorgan Chase, and Unisys (1997–2005). In 2025 I was Development Director (paid staff) at A Frog House.
 
-**Education:** Master of Professional Writing, USC · BS Communication, Cornell University
+**Education:** Master of Professional Writing, University of Southern California · Bachelor of Science, General Studies, Cornell University
+
+**Certification:** Databricks Lakehouse Fundamentals, March 2026
